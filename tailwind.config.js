@@ -9,8 +9,13 @@ export default {
         "theme-white": "#C2C2C2",
       },
       fontFamily: {
-        sans: "Roboto, sans-serif", // Adds a new `font-display` class
+        sans: "Roboto, sans-serif",
         mono: "Cousine, monospace",
+      },
+      fontSize: {
+        body: "20px",
+        header: "64px",
+        section: "32",
       },
     },
   },

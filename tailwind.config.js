@@ -2,7 +2,17 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "theme-blue": "#619CFE",
+        "theme-gray": "#292929",
+        "theme-white": "#C2C2C2",
+      },
+      fontFamily: {
+        sans: "Roboto, sans-serif", // Adds a new `font-display` class
+        mono: "Cousine, monospace",
+      },
+    },
   },
   plugins: [],
 };

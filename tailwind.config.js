@@ -15,7 +15,7 @@ export default {
       fontSize: {
         body: "20px",
         header: "64px",
-        section: "32",
+        section: "32px",
       },
     },
   },

@@ -9,7 +9,7 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({ description, titleUrl, titleLabel }) => {
   return (
     <div className="rounded bg-theme-light-gray bg-opacity-25 p-4">
-      <Link linkUrl={titleUrl} label={titleLabel}/>
+      <Link isIcon={false} linkUrl={titleUrl} label={titleLabel}/>
       <p className="font-sans text-body text-theme-white">
         {description}
       </p>

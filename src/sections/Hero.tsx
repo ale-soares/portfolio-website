@@ -4,10 +4,10 @@ import Tag from "../components/Tag";
 
 import {text} from "./../mocks/Hero"
 
+import Pdf from "./../documents/resume_alexandra_soares.pdf"
+
 const Hero = () => {
-  const handleClick = () => {
-    console.log("click")
-  }
+  const handleClick = () => window.open(Pdf);
 
   return (
     <div className="mt-20">

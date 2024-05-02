@@ -11,7 +11,7 @@ const App: React.FC = () => {
       <Effects />
       <div className="p-6">
       <Navbar />
-        <div className="px-80 pb-40">
+        <div className="md:px-80 pb-40">
           <Hero />
           <Skills />
           <Projects />

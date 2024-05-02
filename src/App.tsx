@@ -1,11 +1,14 @@
-import ComponentPreview from "./sections/ComponentPreview";
+// import ComponentPreview from "./sections/ComponentPreview";
+import Navbar from "./sections/Navbar";
 
 const App: React.FC = () => {
   return (
-    <>
-      <h1 className="font-mono text-3xl font-bold underline">Hello world!</h1>
-      <ComponentPreview />
-    </>
+    <div className="p-6">
+    <Navbar />
+      <div className="px-80">
+        {/* <img src="./assets/blobs/blob-1.png" alt="dasd" /> */}
+      </div>
+    </div>
   );
 }
 

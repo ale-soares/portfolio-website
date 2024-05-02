@@ -1,6 +1,7 @@
 // import ComponentPreview from "./sections/ComponentPreview";
 import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
+import Skills from "./sections/Skills";
 
 const App: React.FC = () => {
   return (
@@ -8,6 +9,7 @@ const App: React.FC = () => {
     <Navbar />
       <div className="px-80">
         <Hero />
+        <Skills />
       </div>
     </div>
   );

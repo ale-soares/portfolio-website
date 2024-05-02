@@ -9,7 +9,7 @@ const Subtitle: React.FC<SubtitleProps> = ({ label, isSectionTitle }) => {
       {isSectionTitle ?
         (
           <div className="relative flex py-5 items-center">
-            <span className="flex-shrink mr-4 font-sans text-section text-theme-white">{label}</span>
+            <span className="flex-shrink mr-4 font-sans text-section text-theme-white font-semibold">{label}</span>
             <div className="flex-grow border-t border-theme-white" />
           </div>
         ) :

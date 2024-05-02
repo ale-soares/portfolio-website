@@ -14,7 +14,7 @@ const Subtitle: React.FC<SubtitleProps> = ({ label, isSectionTitle }) => {
           </div>
         ) :
         (
-          <h3 className="font-sans text-section text-theme-white">
+          <h3 className="font-sans text-section text-theme-white font-semibold">
             {label}
           </h3>
         )

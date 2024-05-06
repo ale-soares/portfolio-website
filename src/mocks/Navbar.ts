@@ -8,16 +8,16 @@ export const data: Array<Navbar> = [
   {
     name: "github",
     url: "https://github.com/ale-soares",
-    src: "src/assets/icons/github.png",
+    src: "/images/github.png",
   },
   {
     name: "linkedin",
     url: "https://www.linkedin.com/in/ale-soares/",
-    src: "src/assets/icons/linkedin.png",
+    src: "/images/linkedin.png",
   },
   {
     name: "leetcode",
     url: "https://leetcode.com/ale-soares/",
-    src: "src/assets/icons/leetcode.png",
+    src: "/images/leetcode.png",
   },
 ];

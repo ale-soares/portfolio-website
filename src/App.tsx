@@ -4,6 +4,7 @@ import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
 import Other from "./sections/Other";
 import Effects from "./sections/Effects";
+import Footer from "./sections/Footer";
 
 const App: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const App: React.FC = () => {
           <Projects />
           <Other />
         </div>
+      <Footer />
       </div>
     </>
   );

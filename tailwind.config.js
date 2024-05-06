@@ -17,6 +17,7 @@ export default {
         body: "20px",
         header: "64px",
         section: "32px",
+        detail: "14px",
       },
     },
   },

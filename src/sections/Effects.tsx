@@ -4,6 +4,7 @@ import {
   type ISourceOptions
 } from "@tsparticles/engine";
 import { loadSlim } from "@tsparticles/slim";
+import Loader from "../components/Loader";
 
 const Effects = () => {
   const [init, setInit] = useState(false);
@@ -87,7 +88,7 @@ const Effects = () => {
     );
   }
 
-  return <></>;
+  return <Loader isLoading={true} />;
 };
 
 export default Effects;

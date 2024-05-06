@@ -1,7 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import {
-  type Container,
   type ISourceOptions
 } from "@tsparticles/engine";
 import { loadSlim } from "@tsparticles/slim";
@@ -16,10 +15,6 @@ const Effects = () => {
       setInit(true);
     });
   }, []);
-
-  const particlesLoaded = async (container?: Container): Promise<void> => {
-    console.log(container);
-  };
 
   const options: ISourceOptions = useMemo(
     () => ({
@@ -87,7 +82,6 @@ const Effects = () => {
     return (
       <Particles
         id="tsparticles"
-        particlesLoaded={particlesLoaded}
         options={options}
       />
     );
